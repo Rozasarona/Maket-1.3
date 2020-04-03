@@ -22,6 +22,7 @@
     justify-content: space-between;
     padding: 10px;
     align-items: center;
+    margin-right: 0;
     /*position: absolute;
     left: 0%;
     right: 0%;
@@ -34,8 +35,10 @@
 .right-pannel {
     display: flex;
     border-left: 2px solid lightgrey;
-    padding: 10px;
-    justify-content: space-between;
+    padding: 10px 0;
+    justify-content: space-around;
+    width: 115px;
+    margin-right: 0;
 
 }
 
@@ -59,10 +62,12 @@
 .gadgets {
     /*margin: 0 auto;
     height: 40px;*/
+    display: flex;
     background: #FFFFFF;
     border: 2px solid #B8FFEC;
     box-sizing: border-box;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .content {
