@@ -1,19 +1,13 @@
-/*@font-face {
-    font-family: 'TT Lakes';
-    src: url('fonts/TTLakes-Regular.eot');
-    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
-        url('fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/TTLakes-Regular.woff') format('woff'),
-        url('fonts/TTLakes-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}*/
+body {
+    margin: 0;
+}
 
 .container {
     font-family: "TT Lakes";
     width: 320px;
     margin: 0 auto;
     border: 1px dashed black;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -22,7 +16,7 @@
     justify-content: space-between;
     padding: 10px;
     align-items: center;
-    margin-right: 0;
+    
     /*position: absolute;
     left: 0%;
     right: 0%;
@@ -67,8 +61,13 @@
     border: 2px solid #B8FFEC;
     box-sizing: border-box;
     border-radius: 6px;
-    overflow: hidden;
+    overflow-x: auto;   
 }
+   
+/*.gadgets::-webkit-scrollbar {
+    display: none;
+  }*/
+
 
 .content {
 color: #1B1C21;
@@ -84,4 +83,39 @@ color: #1B1C21;
 
 .read {
     display: flex;
+}
+
+.button-menu {
+    background-image: url('img/burger.png');
+    background-repeat: no-repeat;
+    }
+
+.button-logo {
+    background-image: url('img/group.png');
+    background-repeat: no-repeat;
+}
+
+.button-call {
+    background-image: url('img/call.png');
+    background-repeat: no-repeat;
+}
+
+.button-write {
+    background-image: url('img/chat.png');
+    background-repeat: no-repeat;
+}
+
+.button-about-us {
+    background-image: url('img/profile.png');
+    background-repeat: no-repeat;
+}
+
+.button-request {
+    background-image: url('img/repair.png');
+    background-repeat: no-repeat;
+}
+
+.button-status {
+    background-image: url('img/checkstatus.png');
+    background-repeat: no-repeat;
 }
