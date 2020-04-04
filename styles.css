@@ -12,7 +12,7 @@ body {
 
 .header {
     display: flex;
-    border: 1px dashed black;
+    height: 88px;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
@@ -25,6 +25,14 @@ body {
     background: #FFFFFF;*/
 
 } 
+
+.header-contacts {
+    display: none;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 152px;
+    
+}
 
 .right-pannel {
     display: flex;
@@ -45,9 +53,10 @@ body {
 
 .main {
     display: flex;
+    margin-top: 88px;
     justify-content: center;
     flex-direction: column;
-    border: 1px dashed black;
+   
     background: #F8F8F8;
 }
 
@@ -83,6 +92,14 @@ color: #1B1C21;
 
 .read {
     display: flex;
+}
+
+
+.button {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
 }
 
 .button-menu {
