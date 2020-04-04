@@ -70,6 +70,10 @@ body {
     flex-direction: row;  
 }
 
+.main__info::-webkit-scrollbar {
+    display: none;
+  }
+
 
 .input[type="button"] {
     height: 40px;
