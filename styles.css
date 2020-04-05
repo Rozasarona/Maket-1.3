@@ -43,7 +43,16 @@ body {
 
 .service {
     display: none;
+    }
 
+.service label {
+    height: 40px;
+    line-height: 40px;
+    /* vertical-align: middle; */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
 }
 
 .page-title {
@@ -94,19 +103,28 @@ input[type="button"] {
   .reviews {
     display: none;
 } 
-  }
+  
 
 .content {
+display: flex;
 color: #1B1C21;
 font-family: TT Lakes;
 font-size: 14px;
 line-height: 18px;
+flex-direction: column;
 /* or 129% */
 
 letter-spacing: 0.2px;
 
 color: #1B1C21;
 } 
+.content__container {
+  
+}
+
+.picture {
+    
+}
 
 .content__about-us {
     display: none;
@@ -163,3 +181,82 @@ color: #1B1C21;
 .picture {
     margin-left: -15px;
 }
+
+.main__title_part1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .header__contacts {
+        display: flex;        
+    }
+    .container {
+        width: 768px;        
+    }
+
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .picture {
+        padding: 10px 0;
+        margin-left: 0;
+        
+    }
+
+    .content__container {
+        padding-right: 10px;
+      }
+
+    .picture img {
+        width: 360px;
+        
+    }
+}
+
+@media (min-width: 1120px) {
+   .header {
+       display: none;
+   }
+
+   .container {
+       width: 1120px;
+   }
+
+   .service {
+       display: flex;
+       margin: 21.44px;
+   }
+   .button-request,
+   .button-status  {
+       background-color: #F8F8F8;
+       margin-left: 10px;
+   }
+
+   .content__about-us {
+    display: block;
+   }
+
+   .content__container {
+    padding-right: 10px;
+  }
+  
+  .picture img {
+      width: 531px;
+  }
+
+  .reviews {
+      display: block;
+      margin-top: 20px;      
+  }
+
+  .reviews a {
+      text-decoration: none;
+      color: #1B1C21;
+  }
+}
+
+
+
+
