@@ -1,79 +1,81 @@
 <!DOCTYPE html>
   <html lang="ru">
-  <head>    
-  <title>
-  Услуги и сервисы
-  </title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="fonts/stylesheet.css">
-  <link rel="stylesheet" href="styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <div class="header__menu">
-          <button class=" button button-menu" title="Меню"></button>  
-        </div>
-        <div class="header__logo">
-          <img src="img/Group.png" alt="Логотип" width="97" height="51">
-        </div>
-        <div class="header__empty"></div>
-        <div class="header__contacts">              
-          <button class="button button-call" title="Позвонить"></button>
-          <button class="button button-write" title="Написать"></button>
-          <button class="button button-about-us" title="О нас"></button>              
-        </div>
-        <div class="header-requests">
-          <button class="button button-request" title="Оставить заявку"></button>
-          <button class="button button-status" title="Статус ремонта"></button>
-        </div>
-      </header>
-      <main class="main">
-        <div class="main__title_container">
-          <div class="main__title_part1">
-            <h1 class="main__title_title">Услуги и сервисы</h1>
-            <div class="service">
-              <label>Оставить заявку<button class="button button-request"></button></label>
-              <label>Статус ремонта<button class="button button-status"></button></label>
+    <head>    
+      <title>
+        Услуги и сервисы
+      </title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="fonts/stylesheet.css">
+      <link rel="stylesheet" href="styles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   <body>
+     <div class="container">     
+        <header class="header">
+          <div class="header__box">
+            <div class="header__menu">
+              <button class="button header__button_menu" title="Меню"></button>  
+            </div>
+            <div class="divider hidden-mobile"></div>
+            <div class="header__logo">
+              <img src="img/Group.png" alt="Логотип" width="97" height="51">
             </div>
           </div>
-          <div class="main__info">            
-            <input type="button" value="Ремонтируемые устройства">
-            <input type="button" value="Дополнительные услуги">
-            <input type="button" value="Цены на услуги">
-            <input type="button" value="Адреса сервисных центров">
-            <input type="button" value="Специальные цены">
+          <div class="header__box">
+            <div class="header__contacts">              
+              <button class="button header__button_call" title="Позвонить"></button>
+              <button class="button header__button_write" title="Написать"></button>
+              <button class="button header__button_about-us" title="О нас"></button>              
+            </div>
+            <div class="divider"></div>
+            <div class="header__requests">
+              <button class="button header__button_request" title="Оставить заявку"></button>
+              <button class="button header__button_status" title="Статус ремонта"></button>
+            </div>
           </div>
-          <div class="reviews">
-            <a href="#" title="Ознакомьтесь с отзывами о нас">Отзывы</a>
+        </header>
+        <main class="main">
+          <div class="head">
+            <h1 class="head__title">Услуги и сервисы</h1>
+            <div class="head__service">
+              <label>Оставить заявку<button class="button header__button_request"></button></label>
+              <label>Статус ремонта<button class="button header__button_status"></button></label>
+            </div>
           </div>
-
+          <div class="info">            
+            <a class="link info__long-buttons" href="#">Ремонтируемые устройства</a>
+            <a class="link info__long-buttons" href="#">Дополнительные услуги</a>
+            <a class="link info__long-buttons" href="#">Цены на услуги</a>
+            <a class="link info__long-buttons" href="#">Адреса сервисных центров</a>
+            <a class="link info__long-buttons" href="#">Специальные цены</a>
+            <a class="link info__long-buttons" href="#">Отзывы</a>
+          </div>
           <div class="content">
             <div class="content__container">
-              <p class="content__specialization"> Мы являемся 
+              <p class="content__visible"> Мы являемся 
               авторизованным сервисным центром
               по ремонту техники Dell.Только у нас вы можете
               отремонтировать свой ноутбук Dell с официальной 
               гарантией производителя.</p> 
-              <p class="content__about-us">
+              <p class="content__hidden">
               Мы успешно работаем с 1992 года
               и заслужили репутацию надежного партнера,
               что подтврждает большое количество 
               постоянных клиентов. Мы гордимся тем, что к нам
               обращаются по рекомендациям и, в свою очередь,
               советуют нас родным и близким.</p>
-              <div class="read">
+              <div class="additional">
                 <img src="img/expand.png" alt="Вниз">
-                <p>Читать дальше</p>
+                <div class="additional__link">
+                  <a class="link" href="#">Читать дальше</a>
+                </div>
               </div>
             </div>
             <div class="picture">
-              <img src="img/Picture Copy.png" alt="Табличка">
+              <img src="img/Picture Copy.png" alt="Логотип">
             </div>
-          </div>
-        </div>  
-      </main>
-    </div>
-  </body>
-</html>
+          </div>            
+        </main> 
+      </div>     
+    </body>
+ </html>
