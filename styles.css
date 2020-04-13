@@ -244,6 +244,11 @@ h1 .head__title {
 }
 
 @media (min-width: 1120px) {
+
+    .container {
+        width: 1120px;
+    }
+
    .header {
        display: none;
    }
