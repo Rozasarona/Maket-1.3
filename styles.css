@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+html, body {
+    margin: 0;
+}
+
 
 .container {
     font-family: "TT Lakes";
@@ -17,13 +21,32 @@
     flex-wrap: wrap;
 }
 
+.sidebar-container {
+    width: 320px;
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    margin: 0;
+}
+
 .header {
     display: flex;
     height: 56px;
     justify-content: space-between;
     padding: 16px;
     align-items: center;   
-} 
+}
+
+.sidebar-header {
+    padding: 19px 24px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .header__button_menu {
     margin-right: 20px;
@@ -32,6 +55,16 @@
 .header__box {
     display: flex;
     align-items: center;
+}
+
+.header__button_close {
+    background-image: url('img/close.png');
+    background-repeat: no-repeat;
+    margin-right: 16px;    
+}
+
+.header__button_search {
+    background-image: url('img/search.png');
 }
 
 .divider {
@@ -166,7 +199,8 @@ h1 .head__title {
 }
 
 .button:hover {
-    filter: drop-shadow(0 0 10px red);
+    transform: scale(1.2);
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -218,7 +252,87 @@ h1 .head__title {
     margin-left: -24px;
 }
 
+.pages {
+    padding-left: 0;
+}
 
+.pages__kinds {
+    list-style: none;
+    padding: 16px 24px;
+}
+
+.pages__kinds .pages__link {
+    text-decoration: none;
+    color: #1B1C21;
+    font-weight: 500;    
+}
+
+.pages__kinds .pages__link:hover {    
+    color: #7E7E82;
+}
+
+.pages__kinds:hover {
+    background-image: url("img/highlight.png");
+    background-position: left;
+    background-repeat: no-repeat;    
+}
+
+footer {
+    padding: 32px 24px;
+}
+
+.footer__button_call, 
+.footer__button_write,
+.footer__button_about-us {
+    margin-right: 16px;    
+}
+
+.footer__button_call {
+    background-image: url('img/call.png'); 
+}
+
+.footer__button_write {
+    background-image: url('img/chat.png');
+}
+
+.footer__button_about-us {
+    background-image: url('img/profile.png');
+}
+
+.footer__contacts {
+    padding-bottom: 16px;
+}
+
+.footer__email {
+    padding-bottom: 12px;
+}
+
+.footer__email_adress {
+    font-weight: 500;
+}
+
+.footer__phone {
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer__languages .footer__link {
+    font-weight: 500;
+    margin-right: 7px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer__languages .footer__link:hover {
+    color: #7E7E82;
+}
+
+@media(min-height: 728px) {
+    html, body, .sidebar-container {
+        height: 100%;
+    }
+}
 
 @media (min-width: 768px) {
     .header__contacts {
@@ -255,7 +369,11 @@ h1 .head__title {
         width: 1120px;
     }
 
-   .header {
+    .sidebar-container {
+        width: 320px;
+    }
+
+   .hidden-on-large {
        display: none;
    }
 
