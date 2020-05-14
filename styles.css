@@ -261,13 +261,13 @@ h1 .head__title {
     padding: 16px 24px;
 }
 
-.pages__kinds .pages__link {
+.pages__kinds_link {
     text-decoration: none;
     color: #1B1C21;
     font-weight: 500;    
 }
 
-.pages__kinds .pages__link:hover {    
+.pages__kinds_link:hover {    
     color: #7E7E82;
 }
 
@@ -309,12 +309,19 @@ footer {
 
 .footer__email_adress {
     font-weight: 500;
+    text-decoration: none;
+    color: #1B1C21;
 }
 
 .footer__phone {
     padding-bottom: 40px;
     font-size: 24px;
     font-weight: 800;
+}
+
+.footer__phone_number {
+    text-decoration: none; 
+    color: #1B1C21; 
 }
 
 .footer__languages .footer__link {
