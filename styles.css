@@ -411,6 +411,49 @@ footer {
   }
 }
 
+.galleryHeader__repairs {
+    text-transform: uppercase;
+    padding: 16px;
+    margin: 0;
+}
+
+.swiper-wrapper .swiper-slide {
+    height: 72px;
+    width: 240px;
+    background-color: white;
+    background-image: url('img/go.png');
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+    margin-right: 16px;
+    /*white-space: nowrap;*/
+    padding: 16px;
+    /*border: 2px solid transparent;*/
+    background-position: 184px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
 
 
+.swiper-container {
+    height: 112px;
+}
 
+.galleryMain {
+    background: #F2F2F2;
+    height: 122px;
+    padding: 16px;
+}
+
+/*.swiper-pagination-bullets {
+    padding: 38px;
+}*/
+
+/*.swiper-pagination {
+    margin-top: 16px;
+}*/
+
+.swiper-slide__picture {
+
+}
