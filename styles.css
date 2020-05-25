@@ -413,8 +413,7 @@ footer {
     }
 
     .swiper-container {
-        height: 160px;
-        
+        height: 176px;
     }
 
 }
@@ -495,17 +494,3 @@ footer {
     /*height: 122px;*/
     padding: 16px;
 }
-
-/*.swiper-pagination-bullets {
-    padding: 38px;
-}*/
-
-/*.swiper-pagination {
-    margin-top: 16px;
-}*/
-
-.swiper-slide__picture {
-
-}
-
-

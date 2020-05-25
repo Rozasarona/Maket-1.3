@@ -12,19 +12,30 @@
       <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
       <script>
         document.addEventListener('DOMContentLoaded', function() {
-            if (window.innerWidth <= 768) {
-          var mySwiper = new Swiper ('.swiper-container', {
-            // Optional parameters
-            //direction: 'horisontal',
-            //loop: true,
-            slidesPerView: 1.2,
-        
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination'                
-            }         
-          });
+          if (window.innerWidth <= 768) {
+            let mySwiper = new Swiper ('.swiper-container', {
+              slidesPerView: 1.2,
+              pagination: {
+              el: '.swiper-pagination'
+              }
+            });
           }
+
+          let expandButton = document.querySelector('#expand');
+          let shrinkButton = document.querySelector('#shrink');
+          let containerElement = document.querySelector('.swiper-container');
+
+          expandButton.addEventListener('click', function() {
+            containerElement.style.height = "unset";
+            expandButton.style.display = "none";
+            shrinkButton.style.display = "";
+          });
+
+          shrinkButton.addEventListener('click', function() {
+            containerElement.style.height = "";
+            shrinkButton.style.display = "none";
+            expandButton.style.display = "";
+          });
         });
         
         </script>
@@ -35,7 +46,7 @@
                 <p class = "galleryHeader__repairs">Ремонт техники различных брендов</p>
             </div>
         <div class ="galleryMain">
-            <div class="swiper-container collapse">
+            <div class="swiper-container">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
