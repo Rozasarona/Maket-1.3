@@ -12,6 +12,7 @@
       <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
       <script>
         document.addEventListener('DOMContentLoaded', function() {
+            if (window.innerWidth <= 768) {
           var mySwiper = new Swiper ('.swiper-container', {
             // Optional parameters
             //direction: 'horisontal',
@@ -20,11 +21,11 @@
         
             // If we need pagination
             pagination: {
-                el: '.swiper-pagination',
-                
-            },         
-          })
-        })
+                el: '.swiper-pagination'                
+            }         
+          });
+          }
+        });
         
         </script>
     </head>
@@ -34,7 +35,7 @@
                 <p class = "galleryHeader__repairs">Ремонт техники различных брендов</p>
             </div>
         <div class ="galleryMain">
-            <div class="swiper-container">
+            <div class="swiper-container collapse">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -51,11 +52,24 @@
                     <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (4).png" alt = "Apple"></a></div>
                     
                 </div>
+                
                 <!-- If we need pagination -->
                 
                 <div class="swiper-pagination"></div>
             </div>
-            
+            <div class="additional-gallery hidden-mobile-flex" id = "expand">
+                <img src="img/expand.png" alt="Вниз">
+                <div class="additional__link">
+                  <a class="link" href="#">Показать все</a>
+                </div>
+              </div>
+              <div style = "display: none" class="additional-gallery hidden-mobile-flex " id = "shrink">
+                <img src="img/icon.png" alt="Вниз">
+                <div class="additional__link">
+                  <a class="link" href="#">Скрыть</a>
+                </div>
+            </div>
         </div>
         </div>
     </body>
+    </html>
