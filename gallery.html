@@ -8,79 +8,51 @@
       <link rel="stylesheet" href="fonts/stylesheet.css">
       <link rel="stylesheet" href="styles.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">      
-      <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-      <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          if (window.innerWidth <= 768) {
-            let mySwiper = new Swiper ('.swiper-container', {
-              slidesPerView: 1.2,
-              pagination: {
-              el: '.swiper-pagination'
-              }
-            });
-          }
-
-          let expandButton = document.querySelector('#expand');
-          let shrinkButton = document.querySelector('#shrink');
-          let containerElement = document.querySelector('.swiper-container');
-
-          expandButton.addEventListener('click', function() {
-            containerElement.style.height = "unset";
-            expandButton.style.display = "none";
-            shrinkButton.style.display = "";
-          });
-
-          shrinkButton.addEventListener('click', function() {
-            containerElement.style.height = "";
-            shrinkButton.style.display = "none";
-            expandButton.style.display = "";
-          });
-        });
-        
-        </script>
+      <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">      
     </head>
     <body>
-        <div class = "container">
-            <div class = "galleryHeader">
-                <p class = "galleryHeader__repairs">Ремонт техники различных брендов</p>
-            </div>
-        <div class ="galleryMain">
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide"><img class = "swiper-slide__picture" src = "img/Bitmap (1).png" alt = "Lenovo"></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (3).png" alt = "Samsung"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (4).png" alt = "Apple"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (6).png" alt = "View Sonic"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (2).png" alt = "Bosch"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (8).png" alt = "Hp"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (5).png" alt = "Acer"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (7).png" alt = "Sony"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (1).png" alt = "Lenovo"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (3).png" alt = "Samsung"></a></div>
-                    <div class="swiper-slide"><a class = "link-galleryMain" href = "#"><img src = "img/Bitmap (4).png" alt = "Apple"></a></div>
-                    
-                </div>
-                
-                <!-- If we need pagination -->
-                
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="additional-gallery hidden-mobile-flex" id = "expand">
-                <img src="img/expand.png" alt="Вниз">
-                <div class="additional__link">
-                  <a class="link" href="#">Показать все</a>
-                </div>
-              </div>
-              <div style = "display: none" class="additional-gallery hidden-mobile-flex " id = "shrink">
-                <img src="img/icon.png" alt="Вниз">
-                <div class="additional__link">
-                  <a class="link" href="#">Скрыть</a>
-                </div>
-            </div>
+      <div class = "container">
+        <div class = "galleryheader">
+          <p class = "galleryheader__repairs">Ремонт техники различных брендов</p>
         </div>
+        <div class ="gallerymain">
+          <div class="swiper-container">                
+            <div class="swiper-wrapper">                   
+              <div class="swiper-slide"><img class = "swiper-slide__picture" src = "img/Bitmap (1).png" alt = "Lenovo">
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (3).png" alt = "Samsung"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (4).png" alt = "Apple"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (6).png" alt = "View Sonic"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (2).png" alt = "Bosch"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (8).png" alt = "Hp"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (5).png" alt = "Acer"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (7).png" alt = "Sony"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (1).png" alt = "Lenovo"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (3).png" alt = "Samsung"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+              <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (4).png" alt = "Apple"></a>
+                <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
+            </div>             
+            <div class="swiper-pagination"></div> 
+          </div>           
+          <div class="additional-gallery hidden-mobile-flex" id = "expand">
+            <img src="img/expand.png" alt="Вниз">
+            <div class="additional__link">
+              <a class="link" href="#">Показать все</a>
+            </div>
+          </div>              
         </div>
-    </body>
-    </html>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src = "gallery.js"></script>
+  </body>      
+</html>
