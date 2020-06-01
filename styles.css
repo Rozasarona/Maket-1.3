@@ -457,7 +457,7 @@ footer {
       width: 531px;
   }
 
-  .info {        
+  .info {
     flex-wrap: wrap;
   }
 }
@@ -500,4 +500,33 @@ footer {
 
 .additional__icon {
     transform: rotate(180deg);
+}
+
+
+.order-button {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background-image: url(img/dropdown.png);
+    background-position: center right 15px;
+    background-color: #FF3E79;
+    color: white;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 0 12px;
+    width: 95px;
+    height: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.swiper-slide.order-option {
+    height: 200px;
+}
+
+.costs-swiper {
+    height: 240px;
 }
