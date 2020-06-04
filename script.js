@@ -8,12 +8,12 @@
       });
     }
 
-    let expandButton = document.querySelector('#expand');    
+    let expandButton = document.querySelector('#expand');
     let containerElement = document.querySelector('.swiper-container');
     let myLink = document.querySelector('.additional__link .link');
     let myImg = expandButton.querySelector('img');
 
-    expandButton.addEventListener('click', function() {       
+    expandButton.addEventListener('click', function() {
       myImg.classList.add('additional__icon');
       if (myLink.innerHTML === "Показать все") {
           myLink.innerHTML = "Скрыть";
@@ -25,5 +25,3 @@
         containerElement.style.height = "";
       }
     });
-
-    
