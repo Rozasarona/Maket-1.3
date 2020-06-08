@@ -1,0 +1,32 @@
+@import './variables.scss';
+@import './header/header.scss';
+
+@import './header/__box/header__box.scss';
+
+@import './header/__logo/header__logo.scss';
+
+@import './header/__contacts/header__contacts.scss';
+@import './header/__contacts/_hiddenmobile/header__contacts_hiddenmobile.scss';
+
+@import './header/__requests/header__requests.scss';
+
+
+@import './button/button.scss';
+@import './button/_type/button_type-menu.scss';
+@import './button/_type/button_type-call.scss';
+@import './button/_type/button_type-write.scss';
+@import './button/_type/button_type-aboutus.scss';
+@import './button/_type/button_type-request.scss';
+@import './button/_type/button_type-status.scss';
+
+
+@import './divider/divider.scss';
+@import './divider/_hiddenmobile/divider_hiddenmobile.scss';
+
+@import './logo/logo.scss';
+
+@import './main/main.scss';
+
+
+
+

@@ -7,30 +7,27 @@
       <meta charset="utf-8">
       <link rel="stylesheet" href="fonts/stylesheet.css">
       <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="./dist/styles.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
       <div class="container">
-        <header class="header hidden-on-large">
+        <header class="header">
           <div class="header__box">
-            <div class="header__menu">
-              <button class="button header__button_menu" title="Меню"></button>
-            </div>
-            <div class="divider hidden-mobile"></div>
-            <div class="header__logo">
-              <img src="img/Group.png" alt="Логотип" width="97" height="51">
-            </div>
+            <button class="button button_type-menu" title="Меню"></button>
+            <div class="divider divider_hiddenmobile"></div>
+            <a href="#" class="logo header__logo"></a>
           </div>
           <div class="header__box">
-            <div class="header__contacts">
-              <button class="button header__button_call" title="Позвонить"></button>
-              <button class="button header__button_write" title="Написать"></button>
-              <button class="button header__button_about-us" title="О нас"></button>
+            <div class="header__contacts header__contacts_hiddenmobile">
+              <button class="button button_type-call" title="Позвонить"></button>
+              <button class="button button_type-write" title="Написать"></button>
+              <button class="button button_type-aboutus" title="О нас"></button>
             </div>
             <div class="divider"></div>
             <div class="header__requests">
-              <button class="button header__button_request" title="Оставить заявку"></button>
-              <button class="button header__button_status" title="Статус ремонта"></button>
+              <button class="button button_type-request" title="Оставить заявку"></button>
+              <button class="button button_type-status" title="Статус ремонта"></button>
             </div>
           </div>
         </header>

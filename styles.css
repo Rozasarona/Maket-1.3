@@ -30,13 +30,7 @@ html, body {
     margin: 0;
 }
 
-.header {
-    display: flex;
-    height: 56px;
-    justify-content: space-between;
-    padding: 16px;
-    align-items: center;
-}
+
 
 .sidebar-header {
     padding: 19px 24px;
@@ -48,15 +42,6 @@ html, body {
     justify-content: space-between;
 }
 
-.header__button_menu {
-    margin-right: 20px;
-}
-
-.header__box {
-    display: flex;
-    align-items: center;
-}
-
 .header__button_close {
     background-image: url('img/close.png');
     background-repeat: no-repeat;
@@ -65,15 +50,6 @@ html, body {
 
 .header__button_search {
     background-image: url('img/search.png');
-}
-
-.divider {
-    width: 0;
-    height: 30px;
-    border: 1px solid #EAEAEA;
-    border-radius: 1px;
-    background-color:#EAEAEA;
-    margin: 20px;
 }
 
 .hidden-mobile {
@@ -89,18 +65,6 @@ h1 .head__title {
     margin: 24px 24px 12px auto;
     font-size: 28px;
     color: #1B1C21;
-}
-
-.header__contacts {
-    display: none;
-    justify-content: space-between;
-    width: 152px;
-}
-
-.header__requests {
-    display: flex;
-    width: 96px;
-    justify-content: space-between;
 }
 
 .head__service {
@@ -126,13 +90,7 @@ h1 .head__title {
     margin-left: -15px;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 24px;
-    background: #F8F8F8;
-}
+
 
 .info {
     display: flex;
@@ -195,58 +153,14 @@ h1 .head__title {
     margin-bottom: 16px;
 }
 
-.button {
-    border: 0;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-}
-
-.button:hover {
-    transform: scale(1.2);
-    opacity: 0.8;
-    cursor: pointer;
-}
-
 .head__service label:hover {
     filter: drop-shadow(0 0 10px grey);
     cursor: pointer;
 }
 
-.header__button_menu {
-    background-image: url('img/burger.png');
-    background-repeat: no-repeat;
-}
 
-.header__logo {
-    background-image: url('img/group.png');
-    background-repeat: no-repeat;
-}
 
-.header__button_call {
-    background-image: url('img/call.png');
-    background-repeat: no-repeat;
-}
 
-.header__button_write {
-    background-image: url('img/chat.png');
-    background-repeat: no-repeat;
-}
-
-.header__button_about-us {
-    background-image: url('img/profile.png');
-    background-repeat: no-repeat;
-}
-
-.header__button_request {
-    background-image: url('img/repair.png');
-    background-repeat: no-repeat;
-}
-
-.header__button_status {
-    background-image: url('img/checkstatus.png');
-    background-repeat: no-repeat;
-}
 
 .additional__link .link:hover {
     filter: drop-shadow(0 0 10px grey);
@@ -442,10 +356,6 @@ height: 200px;
 }
 
 @media (min-width: 768px) {
-    .header__contacts {
-        display: flex;
-    }
-
     .content {
         flex-direction: row;
         justify-content: space-between;
@@ -569,10 +479,6 @@ height: 200px;
 
     .sidebar-container {
         width: 320px;
-    }
-
-    .hidden-on-large {
-        display: none;
     }
 
     .head__service {

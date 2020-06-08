@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+}
+@media (min-width: 1120px) {
+  .header {
+    display: none;
+  }
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-left: 20px;
+}
+@media (min-width: 768px) {
+  .header__logo {
+    margin: 0;
+  }
+}
+
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 152px;
+}
+
+.header__contacts_hiddenmobile {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__contacts_hiddenmobile {
+    display: flex;
+  }
+}
+
+.header__requests {
+  display: flex;
+  width: 96px;
+  justify-content: space-between;
+}
+
+.button {
+  border: 0;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+.button:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.button_type-menu {
+  background: no-repeat url("../img/burger.png");
+}
+
+.button_type-call {
+  background: no-repeat url("../img/call.png");
+}
+
+.button_type-write {
+  background: no-repeat url("../img/chat.png");
+}
+
+.button_type-aboutus {
+  background: no-repeat url("../img/profile.png");
+}
+
+.button_type-request {
+  background: no-repeat url("../img/repair.png");
+}
+
+.button_type-status {
+  background: no-repeat url("../img/checkstatus.png");
+}
+
+.divider {
+  width: 0;
+  height: 30px;
+  border: 1px solid #EAEAEA;
+  border-radius: 1px;
+  background-color: #EAEAEA;
+  margin: 20px;
+}
+
+.divider_hiddenmobile {
+  display: none;
+}
+@media (min-width: 768px) {
+  .divider_hiddenmobile {
+    display: block;
+  }
+}
+
+.logo {
+  display: inline-block;
+  width: 98px;
+  height: 52px;
+  background: no-repeat url("../img/Group.png");
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  background: #F8F8F8;
+}
+
+/*# sourceMappingURL=styles.css.map */
