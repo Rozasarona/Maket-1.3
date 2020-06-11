@@ -1,0 +1,14 @@
+.head__label {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.head__label:hover {
+  filter: drop-shadow(0 0 10px grey);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=head__label.css.map */

@@ -1,0 +1,8 @@
+.head__service {
+    display: none;
+    margin: 21.44px;
+
+    @media (min-width: 1120px) {
+        display: flex;
+    }
+}

@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    color: $contentBaseColor;
+    font-family: TT Lakes;
+    font-size: 14px;
+    line-height: 18px;
+    flex-direction: column;
+    letter-spacing: 0.2px;
+
+    @media (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+}

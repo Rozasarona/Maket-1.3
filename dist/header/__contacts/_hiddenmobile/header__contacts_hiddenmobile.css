@@ -1,0 +1,10 @@
+.header__contacts_hiddenmobile {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__contacts_hiddenmobile {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=header__contacts_hiddenmobile.css.map */

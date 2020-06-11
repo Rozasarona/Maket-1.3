@@ -1,0 +1,10 @@
+.divider_hiddenmobile {
+  display: none;
+}
+@media (min-width: 768px) {
+  .divider_hiddenmobile {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=divider_hiddenmobile.css.map */

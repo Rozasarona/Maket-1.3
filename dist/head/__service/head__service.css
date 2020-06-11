@@ -1,0 +1,11 @@
+.head__service {
+  display: none;
+  margin: 21.44px;
+}
+@media (min-width: 1120px) {
+  .head__service {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=head__service.css.map */

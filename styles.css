@@ -61,26 +61,7 @@ html, body {
     display: none;
 }
 
-h1 .head__title {
-    margin: 24px 24px 12px auto;
-    font-size: 28px;
-    color: #1B1C21;
-}
-
-.head__service {
-    display: none;
-}
-
-.head__service label {
-    height: 40px;
-    line-height: 40px;
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    font-weight: 600;
-}
-
-.head {
+/* .head {
     display: flex;
     justify-content: space-between;
     background-image: url("img/highlight.png");
@@ -88,54 +69,14 @@ h1 .head__title {
     background-repeat: no-repeat;
     padding-left: 15px;
     margin-left: -15px;
-}
+} */
 
 
 
-.info {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    flex-direction: row;
-}
 
-.info::-webkit-scrollbar {
-    display: none;
-}
 
-.info__long-buttons:hover {
-    background: #FFFFFF;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-}
 
-.info__long-buttons {
-    box-sizing: border-box;
-    margin-right: 16px;
-    white-space: nowrap;
-    padding: 8px 16px;
-    border: 2px solid transparent;
-}
 
-.link {
-    text-decoration: none;
-    font-family: "TT Lakes";
-    height: 40px;
-    color: #7E7E82;
-    padding: 8px 16px;
-    vertical-align: middle;
-}
-
-.content {
-    display: flex;
-    color: #1B1C21;
-    font-family: TT Lakes;
-    font-size: 14px;
-    line-height: 18px;
-    flex-direction: column;
-    letter-spacing: 0.2px;
-    color: #1B1C21;
-}
 
 .content__hidden {
     display: none;
@@ -151,11 +92,6 @@ h1 .head__title {
     font-weight: 500;
     box-sizing: border-box;
     margin-bottom: 16px;
-}
-
-.head__service label:hover {
-    filter: drop-shadow(0 0 10px grey);
-    cursor: pointer;
 }
 
 
@@ -356,19 +292,13 @@ height: 200px;
 }
 
 @media (min-width: 768px) {
-    .content {
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
     .picture {
         padding: 10px 0;
         margin-left: 0;
     }
 
-    .content__container {
-        padding-right: 10px;
-    }
+   
 
     .picture img {
         width: 360px;
@@ -481,10 +411,7 @@ height: 200px;
         width: 320px;
     }
 
-    .head__service {
-        display: flex;
-        margin: 21.44px;
-    }
+    
     .header__button_request,
     .header__button_status  {
         background-color: transparent;
@@ -495,17 +422,11 @@ height: 200px;
     display: block;
     }
 
-    .content__container {
-    padding-right: 10px;
-    }
 
     .picture img {
         width: 531px;
     }
 
-    .info {
-    flex-wrap: wrap;
-    }
 }
 
 .galleryheader__repairs {

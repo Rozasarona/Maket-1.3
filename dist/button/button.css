@@ -1,0 +1,13 @@
+.button {
+  border: 0;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+.button:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=button.css.map */

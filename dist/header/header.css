@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+}
+@media (min-width: 1120px) {
+  .header {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,11 @@
+
+.pagetitle {
+    background-image: url("../img/highlight.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 16px;
+
+    @media (min-width: 768px) {
+        padding-left: 24px;
+    }
+}
