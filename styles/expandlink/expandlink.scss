@@ -1,0 +1,17 @@
+.expandlink {
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    color: $contentBaseColor;
+    font-weight: 500;
+    box-sizing: border-box;
+    display: inline-block;
+    background: no-repeat url(../img/expand.png) left center;
+    padding-left: 32px;
+
+    &:hover {
+        filter: drop-shadow(0 0 10px $shadowColor);
+    }
+}
+
+

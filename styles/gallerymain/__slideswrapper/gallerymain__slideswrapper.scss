@@ -1,0 +1,7 @@
+.gallerymain__slideswrapper {
+    @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    }
+}

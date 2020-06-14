@@ -1,25 +1,10 @@
-@font-face {
-    font-family: 'TT Lakes Compressed';
-    src: url('TTLakesCompressed-Regular.eot');
-    src: local('TT Lakes Compressed Regular'), local('TTLakesCompressed-Regular'),
-        url('TTLakesCompressed-Regular.eot?#iefix') format('embedded-opentype'),
-        url('TTLakesCompressed-Regular.woff') format('woff'),
-        url('TTLakesCompressed-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html, body {
     margin: 0;
 }
 
 
-.container {
-    font-family: "TT Lakes";
-    min-width: 320px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
+
 
 .sidebar-container {
     width: 320px;
@@ -82,29 +67,13 @@ html, body {
     display: none;
 }
 
-.additional {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    /*line-height: 24px;*/
-    letter-spacing: -0.2px;
-    color: #1B1C21;
-    font-weight: 500;
-    box-sizing: border-box;
-    margin-bottom: 16px;
-}
 
 
 
 
 
-.additional__link .link:hover {
-    filter: drop-shadow(0 0 10px grey);
-}
 
-.picture {
-    margin-left: -24px;
-}
+
 
 .pages {
     padding-left: 0;
@@ -201,9 +170,6 @@ html, body {
     margin-bottom: 16px;
 }
 
-.swiper-container {
-    height: 112px;
-}
 
 .hidden {
     display: none;
@@ -293,16 +259,10 @@ height: 200px;
 
 @media (min-width: 768px) {
 
-    .picture {
-        padding: 10px 0;
-        margin-left: 0;
-    }
 
-   
 
-    .picture img {
-        width: 360px;
-    }
+
+
 
     .hidden-mobile {
         display: block;
@@ -312,19 +272,12 @@ height: 200px;
         display: flex;
     }
 
-    .swiper-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        border-radius: 10px;
-    }
-
+    
     .swiper-slide {
         margin-bottom: 16px;
     }
 
-    .swiper-container {
-        height: 176px;
-    }
+    
 
     .swiper-slide.order-option {
         flex-direction: row;
@@ -403,9 +356,7 @@ height: 200px;
 
 @media (min-width: 1120px) {
 
-    .container {
-        width: 1120px;
-    }
+
 
     .sidebar-container {
         width: 320px;
@@ -423,27 +374,16 @@ height: 200px;
     }
 
 
-    .picture img {
-        width: 531px;
-    }
+   
 
 }
 
-.galleryheader__repairs {
-    text-transform: uppercase;
-    padding: 16px;
-    margin: 0;
-}
 
 
 
 
 
-.gallerymain {
-    background: #F2F2F2;
-    /*height: 122px;*/
-    padding: 16px;
-}
+
 
 .additional__icon {
     transform: rotate(180deg);

@@ -1,0 +1,12 @@
+.content__picture {
+width: 100%;
+
+    @media (min-width: 768px) {
+        margin-top: 10px;
+        width: 360px;
+    }
+
+    @media (min-width: 1120px) {
+        width: 531px;
+    }
+}

@@ -1,14 +1,14 @@
+
 @import './variables.scss';
+
 @import './header/header.scss';
-
 @import './header/__box/header__box.scss';
-
 @import './header/__logo/header__logo.scss';
-
 @import './header/__contacts/header__contacts.scss';
 @import './header/__contacts/_hiddenmobile/header__contacts_hiddenmobile.scss';
-
 @import './header/__requests/header__requests.scss';
+
+@import './container/container.scss';
 
 
 @import './button/button.scss';
@@ -41,6 +41,19 @@
 
 @import './content/__container/content__container.scss';
 @import './content/__text/_visible/content__text_visible-large.scss';
+@import './content/__picture/content__picture.scss';
+
+
+@import './expandlink/expandlink.scss';
+
+@import './sectionheader/sectionheader.scss';
+
+@import './gallerymain/gallerymain.scss';
+@import './gallerymain/__slider/gallerymain__slider.scss';
+@import './gallerymain/__slideswrapper/gallerymain__slideswrapper.scss';
+
+
+
 
 
 

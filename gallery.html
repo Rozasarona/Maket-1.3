@@ -9,16 +9,17 @@
       <link rel="stylesheet" href="styles.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+      <link rel="stylesheet" href="./dist/styles.css">
     </head>
     <body>
       <div class = "container">
-        <div class = "galleryheader">
-          <p class = "galleryheader__repairs">Ремонт техники различных брендов</p>
-        </div>
+        
+          <div class = "sectionheader">Ремонт техники различных брендов</div>
+        
         <div class ="gallerymain">
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img class = "swiper-slide__picture" src = "img/Bitmap (1).png" alt = "Lenovo">
+          <div class="swiper-container gallerymain__slider">
+            <div class="swiper-wrapper gallerymain__slideswrapper">
+              <div class="swiper-slide gallerymain__slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (1).png" alt = "Lenovo"></a>
                 <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
               <div class="swiper-slide"><a class = "link-gallerymain" href = "#"><img src = "img/Bitmap (3).png" alt = "Samsung"></a>
                 <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a></div>
@@ -43,7 +44,7 @@
             </div>
             <div class="swiper-pagination"></div>
           </div>
-          <div class="additional-gallery hidden-mobile-flex" id = "expand">
+          <div class="additionalgallery additionalgallery__hidden-mobile" id = "expand">
             <img src="img/expand.png" alt="Вниз">
             <div class="additional__link">
               <a class="link" href="#">Показать все</a>
