@@ -45,6 +45,7 @@
 
 
 @import './expandlink/expandlink.scss';
+@import './expandlink/_upside-down/expandlink_upside-down.scss';
 
 @import './sectionheader/sectionheader.scss';
 
@@ -52,6 +53,10 @@
 @import './gallerymain/__slider/gallerymain__slider.scss';
 @import './gallerymain/__slideswrapper/gallerymain__slideswrapper.scss';
 
+@import './slide/slide.scss';
+
+@import './additionalgallery/additionalgallery.scss';
+@import './additionalgallery/__hidden-mobile/additionalgallery__hidden-mobile.scss';
 
 
 

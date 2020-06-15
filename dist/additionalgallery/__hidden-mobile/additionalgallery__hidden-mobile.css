@@ -1,3 +1,10 @@
-
+.additionalgallery__hidden-mobile {
+  display: none;
+}
+@media (min-width: 768px) {
+  .additionalgallery__hidden-mobile {
+    display: flex;
+  }
+}
 
 /*# sourceMappingURL=additionalgallery__hidden-mobile.css.map */

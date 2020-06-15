@@ -175,27 +175,6 @@ html, body {
     display: none;
 }
 
-.swiper-wrapper .swiper-slide {
-    display: flex;
-    height: 72px;
-    width: 240px;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    /*background-image: url('img/go.png');
-    background-repeat: no-repeat; */
-
-    box-sizing: border-box;
-    margin-right: 16px;
-    /*white-space: nowrap;*/
-    padding: 16px;
-    /*border: 2px solid transparent;*/
-    background-position: right 16px top 16px; /*184px 16px;*/
-    display: flex;
-    border-radius: 6px;
-}
-
-
 .swiper-slide.order-option {
     height: 200px;
     flex-direction: column;
@@ -271,13 +250,6 @@ height: 200px;
     .hidden-mobile-flex {
         display: flex;
     }
-
-    
-    .swiper-slide {
-        margin-bottom: 16px;
-    }
-
-    
 
     .swiper-slide.order-option {
         flex-direction: row;

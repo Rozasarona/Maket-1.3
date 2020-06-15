@@ -1,0 +1,19 @@
+.swiper-wrapper .swiper-slide {
+    display: flex;
+    height: 72px;
+    width: 240px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 16px;
+    padding: 16px;
+    background-position: right 16px top 16px;
+    display: flex;
+    border-radius: 6px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 16px;
+    }
+}
+
