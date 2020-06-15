@@ -6,31 +6,12 @@ html, body {
 
 
 
-.sidebar-container {
-    width: 320px;
-    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
-    display: flex;
-    flex-direction: column;
-    background: #FFFFFF;
-    margin: 0;
-}
 
-
-
-.sidebar-header {
-    padding: 19px 24px;
-}
 
 .header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header__button_close {
-    background-image: url('img/close.png');
-    background-repeat: no-repeat;
-    margin-right: 16px;
 }
 
 .header__button_search {
@@ -230,11 +211,7 @@ height: 200px;
 
 }
 
-@media(min-height: 728px) {
-    html, body, .sidebar-container {
-        height: 100%;
-    }
-}
+
 
 @media (min-width: 768px) {
 
