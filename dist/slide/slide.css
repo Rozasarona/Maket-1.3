@@ -1,21 +1,17 @@
-.swiper-wrapper .swiper-slide {
-  display: flex;
-  height: 72px;
-  width: 240px;
-  background-color: white;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  margin-right: 16px;
-  padding: 16px;
-  background-position: right 16px top 16px;
-  display: flex;
-  border-radius: 6px;
-}
-@media (min-width: 768px) {
-  .swiper-wrapper .swiper-slide {
-    margin-bottom: 16px;
-  }
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |     background-color: $tableCostsBackgroundColor;
+ *   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   styles\slide\slide.scss 4:23  root stylesheet */
 
-/*# sourceMappingURL=slide.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502      background-color: $tableCostsBackgroundColor;\d\a   \2502                        ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   styles\\slide\\slide.scss 4:23  root stylesheet";
+}

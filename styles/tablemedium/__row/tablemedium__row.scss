@@ -1,0 +1,14 @@
+.tablemedium__row {
+    @media (min-width: 768px) {
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        height: 64px;
+        justify-content: flex-end;
+        border-bottom: 1px solid $transparentGray;
+        border-radius: 0;
+        align-items: center;
+        background-color: transparent;
+    }
+
+}

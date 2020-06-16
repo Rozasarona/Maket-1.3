@@ -1,0 +1,10 @@
+.pages__link {
+    text-decoration: none;
+    color:$contentBaseColor;
+    font-weight: 500;
+
+    &:hover {
+        color: $sideBarMenuHoverColor;
+    }
+}
+

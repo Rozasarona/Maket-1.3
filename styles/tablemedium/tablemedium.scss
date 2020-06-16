@@ -1,0 +1,9 @@
+.tablemedium {
+
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: $tableCostsBackgroundColor;
+        }
+}

@@ -1,10 +1,8 @@
-.swiper-wrapper .swiper-slide {
+.slide {
     display: flex;
-    height: 72px;
     width: 240px;
-    background-color: white;
+    background-color: $tableCostsBackgroundColor;
     justify-content: space-between;
-    align-items: center;
     box-sizing: border-box;
     margin-right: 16px;
     padding: 16px;
