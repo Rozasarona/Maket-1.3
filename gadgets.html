@@ -9,85 +9,82 @@
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" href="./dist/styles.css">
         <body>
         <div class = "container">
-            <div class = "galleryheader">
-            <p class = "galleryheader__repairs">Ремонт различных видов техники</p>
-            </div>
+            <div class = "sectionheader">Ремонт различных видов техники</div>
             <div class ="gallerymain">
-            <div class="swiper-container gadgets-swiper">
+            <div class="swiper-container gallerymain__swiper">
                 <div class="swiper-wrapper">
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт ноутбуков</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт ноутбуков</div>
                         <div>
-                            <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                            <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт планшетов</div>
+                    <div class="swiper-slide  slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт планшетов</div>
                         <div>
-                            <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                            <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт ПК</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт ПК</div>
                         <div>
-                        <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                        <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт мониторов</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт мониторов</div>
                         <div>
-                        <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                        <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт смартфонов</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт смартфонов</div>
                         <div>
-                        <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                        <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт часов</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт часов</div>
                         <div>
-                        <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                        <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт игровых приставок</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт игровых приставок</div>
                         <div>
-                        <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                        <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт ТВ</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт ТВ</div>
                         <div>
-                        <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                        <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide gadgets">
-                        <div class="swiper-slide__title">Ремонт принтерв</div>
+                    <div class="swiper-slide slide gallerymain__gadgetsslide">
+                        <div class="slide__title">Ремонт принтерв</div>
                         <div>
-                        <a class = "link-gallerymain" href = "#"><img src = "img/go.png" alt = "Далее"></a>
+                        <a class = "slide__link" href = "#"><img src = "img/go.png" alt = "Далее"></a>
                         </div>
                     </div>
 
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <div class="additional-gallery hidden-mobile-flex" id = "expand">
-                <img src="img/expand.png" alt="Вниз">
-                <div class="additional__link">
-                <a class="link" href="#">Показать все</a>
+            <div class="additionalgallery additionalgallery__hidden-mobile">
+                <a class="expandlink" href="#" id ="expand">Показать все</a>
             </div>
             </div>
         </div>

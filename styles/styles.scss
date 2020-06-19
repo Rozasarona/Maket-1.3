@@ -22,6 +22,7 @@
 @import './button/_type/button_type-search.scss';
 
 
+
 @import './divider/divider.scss';
 @import './divider/_hiddenmobile/divider_hiddenmobile.scss';
 
@@ -58,8 +59,15 @@
 @import './gallerymain/__orderoption/gallerymain__orderoption.scss';
 @import './gallerymain/__galleryslide/gallerymain__galleryslide.scss';
 @import './gallerymain/__orderoptioninfo/gallerymain__orderoptioninfo.scss';
+@import './gallerymain/__additional/gallerymain__additional.scss';
+@import './gallerymain/__swiper/gallerymain__swiper.scss';
+@import './gallerymain/__gadgetsslide/gallerymain__gadgetsslide.scss';
+
 
 @import './slide/slide.scss';
+@import './slide/__title/slide__title.scss';
+@import './slide/__link/slide__link.scss';
+
 
 @import './additionalgallery/additionalgallery.scss';
 @import './additionalgallery/__hidden-mobile/additionalgallery__hidden-mobile.scss';
@@ -85,6 +93,19 @@
 @import './tablemedium/__service/tablemedium__service.scss';
 @import './tablemedium/__cost/tablemedium__cost.scss';
 @import './tablemedium/__period/tablemedium__period.scss';
+
+@import './getoffer/getoffer.scss';
+@import './getoffer/__link/getoffer__link.scss';
+@import './getoffer/__arrow/getoffer__arrow.scss';
+
+
+@import './galleryfooter/galleryfooter.scss';
+
+@import './form-field/form-field.scss';
+
+@import './form-info/form-info.scss';
+@import './form-info/__link/form-info__link.scss';
+
 
 
 
