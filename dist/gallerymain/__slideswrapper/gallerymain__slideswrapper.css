@@ -1,9 +1,0 @@
-@media (min-width: 768px) {
-  .gallerymain__slideswrapper {
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 10px;
-  }
-}
-
-/*# sourceMappingURL=gallerymain__slideswrapper.css.map */

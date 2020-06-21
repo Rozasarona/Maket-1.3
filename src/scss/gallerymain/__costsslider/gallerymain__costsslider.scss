@@ -1,0 +1,8 @@
+.gallerymain__costsslider {
+    height: 240px;
+
+    @media  (min-width: 768px) {
+    height: 100%;
+    overflow: auto;
+    }
+}

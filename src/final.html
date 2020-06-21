@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <meta charset="utf-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="sidebarcontainer">
+                <header class="header sidebarcontainer__header">
+                    <div class="header__container">
+                        <button class="button button_type-close header__close-button" title="Закрыть"></button>
+                        <a class="logo header__logo sidebarcontainer__logo" href ="#"></a>
+                    </div>
+                    <button class="button button_type-search" title="Найти"></button>
+                </header>
+                <main>
+                    <ul class="pages">
+                        <li class="pages__kinds"><a class="pages__link" href="#">Ремонт техники</a></li>
+                        <li class="pages__kinds"><a class="pages__link" href="#">Услуги и сервисы</a></li>
+                        <li class="pages__kinds"><a class="pages__link" href="#">Корпоративным клиентам</a></li>
+                        <li class="pages__kinds"><a class="pages__link" href="#">Продавцам техники</a></li>
+                        <li class="pages__kinds"><a class="pages__link" href="#">Партнерам</a></li>
+                        <li class="pages__kinds"><a class="pages__link" href="#">Производителям</a></li>
+                        <li class="pages__kinds"><a class="pages__link" href="#">Наши сервисные центры</a></li>
+                        <li class="pages__kinds"><a class="pages__link" href="#">Контакты</a></li>
+                    </ul>
+                </main>
+                <footer class="footer">
+                    <div class="footer__contacts">
+                        <button class="button button_type-call footer__button" title="Позвонить"></button>
+                        <button class="button button_type-write footer__button" title="Написать"></button>
+                        <button class="button button_type-aboutus footer__button" title="О нас"></button>
+                    </div>
+                    <div class="footer__email">
+                        <a class="footer__emaillink" href = "mailto:mail@cps.com">mail@cps.com</a>
+                    </div>
+                    <div class="footer__phone">
+                        <a class="footer__phonelink" href = "tel:88008908900">8 800 890 89 00</a>
+                    </div>
+                    <div>
+                        <a href="#" class="footer__link" title="Русский">RU</a>
+                        <a href="#" class="footer__link" title="English">EN</a>
+                        <a href="#" class="footer__link" title="Chinese">CH</a>
+                    </div>
+                </footer>
+            </div>
+            <div class = "page-content">
+                <div class="container">
+                    <header class="header">
+                        <div class="header__box">
+                            <button class="button button_type-menu header__menu-button" title="Меню"></button>
+                            <div class="divider divider_hiddenmobile"></div>
+                            <a href="#" class="logo header__logo"></a>
+                        </div>
+                        <div class="header__box">
+                            <div class="header__contacts header__contacts_hiddenmobile">
+                                <button class="button button_type-call" title="Позвонить"></button>
+                                <button class="button button_type-write" title="Написать"></button>
+                                <button class="button button_type-aboutus" title="О нас"></button>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="header__requests">
+                                <button class="button button_type-request" title="Оставить заявку"></button>
+                                <button class="button button_type-status" title="Статус ремонта"></button>
+                            </div>
+                        </div>
+                    </header>
+                    <main class="main">
+                        <div class="head">
+                            <h1 class="pagetitle">Услуги и сервисы</h1>
+                            <div class="head__service">
+                                <label class="head__label">Оставить заявку<button class="button button_type-request head__button"></button></label>
+                                <label class="head__label">Статус ремонта<button class="button button_type-status head__button"></button></label>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <a class="info__link info__link_active" href="#">Ремонтируемые устройства</a>
+                            <a class="info__link" href="#">Дополнительные услуги</a>
+                            <a class="info__link" href="#">Цены на услуги</a>
+                            <a class="info__link" href="#">Адреса сервисных центров</a>
+                            <a class="info__link" href="#">Специальные цены</a>
+                            <a class="info__link" href="#">Отзывы</a>
+                        </div>
+                        <div class="content">
+                            <div class="content__container">
+                                <p class="content__text">
+                                    Мы являемся авторизованным сервисным центром по ремонту техники Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                                </p>
+                                <p class="content__text content__text_visible-large">
+                                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтврждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                                </p>
+                                <a class="expandlink" href="#">Читать далeе</a>
+                            </div>
+                            <img class="content__picture" src="./img/Picture Copy.png" alt="Логотип">
+                        </div>
+                    </main>
+                </div>
+                <div class = "container">
+                    <div class = "sectionheader">Ремонт техники различных брендов</div>
+                    <div class ="gallerymain">
+                        <div class="swiper-container gallerymain__slider">
+                            <div class="swiper-wrapper gallerymain__slideswrapper">
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (1).png" alt = "Lenovo"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (3).png" alt = "Samsung"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (4).png" alt = "Apple"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (6).png" alt = "View Sonic"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (2).png" alt = "Bosch"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (8).png" alt = "Hp"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (5).png" alt = "Acer"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (7).png" alt = "Sony"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (1).png" alt = "Lenovo"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (3).png" alt = "Samsung"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__galleryslide">
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/Bitmap (4).png" alt = "Apple"></a>
+                                    <a class = "link-gallerymain" href = "#"><img src = "./img/go.png" alt = "Далее"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="additionalgallery additionalgallery__hidden-mobile">
+                            <a class="expandlink" href="#" id ="expand">Показать все</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    </body>
+</html>
