@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
         <title><%= htmlWebpackPlugin.options.title %></title>
-        <meta charset="utf-8">        
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     </head>
@@ -30,8 +30,8 @@
                 </main>
                 <footer class="footer">
                     <div class="footer__contacts">
-                        <button class="button button_type-call footer__button" title="Позвонить"></button>
-                        <button class="button button_type-write footer__button" title="Написать"></button>
+                        <button class="button button_type-call footer__button footer__call-button" title="Заказать звонок"></button>
+                        <button class="button button_type-write footer__button" title="Обратная связь"></button>
                         <button class="button button_type-aboutus footer__button" title="О нас"></button>
                     </div>
                     <div class="footer__email">
@@ -48,7 +48,8 @@
                 </footer>
             </div>
             <div class = "page-content">
-                <div class="container">
+
+                <div class="container ">
                     <header class="header">
                         <div class="header__box">
                             <button class="button button_type-menu header__menu-button" title="Меню"></button>
@@ -57,8 +58,8 @@
                         </div>
                         <div class="header__box">
                             <div class="header__contacts header__contacts_hiddenmobile">
-                                <button class="button button_type-call" title="Позвонить"></button>
-                                <button class="button button_type-write" title="Написать"></button>
+                                <button class="button button_type-call header__call-button" title="Заказать звонок"></button>
+                                <button class="button button_type-write" title="Обратная связь"></button>
                                 <button class="button button_type-aboutus" title="О нас"></button>
                             </div>
                             <div class="divider"></div>
@@ -98,6 +99,7 @@
                         </div>
                     </main>
                 </div>
+
                 <div class = "container">
                     <div class = "sectionheader">Ремонт техники различных брендов</div>
                     <div class ="gallerymain">
@@ -155,7 +157,215 @@
                         </div>
                     </div>
                 </div>
+
+                <div class = "container">
+                    <div class = "sectionheader">Ремонт различных видов техники</div>
+                    <div class ="gallerymain">
+                        <div class="swiper-container gallerymain__swiper">
+                            <div class="swiper-wrapper gallerymain__slideswrapper">
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт ноутбуков</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide  slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт планшетов</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт ПК</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт мониторов</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт смартфонов</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт часов</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт игровых приставок</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт ТВ</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__gadgetsslide">
+                                    <div class="slide__title">Ремонт принтерв</div>
+                                    <div><a class = "slide__link" href = "#"><img src = "./img/go.png" alt = "Далее"></a></div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="additionalgallery additionalgallery__hidden-mobile">
+                            <a class="expandlink" href="#" id ="expand">Показать все</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "container">
+                    <div class = "sectionheader">Цены на услуги</div>
+                    <div class ="gallerymain">
+                        <div class="swiper-container gallerymain__costsslider">
+                            <div class="swiper-wrapper tablemedium">
+                                <div class="swiper-slide slide gallerymain__orderoption tablemedium__row">
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__service">
+                                        <div class = "gallerymain__orderoptiontitle">Ремонтные услуги</div>
+                                        <div>Диагностика</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__cost">
+                                        <div class = "gallerymain__orderoptiontitle">Цена</div>
+                                        <div>Бесплатно</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__period">
+                                        <div class = "gallerymain__orderoptiontitle">Срок</div>
+                                        <div>30 мин</div>
+                                    </div>
+                                    <div class="gallerymain__button">
+                                        <a class = "order-button" href = "#">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__orderoption tablemedium__row">
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__service">
+                                        <div class = "gallerymain__orderoptiontitle">Ремонтные услуги</div>
+                                        <div>Замена дисплея</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__cost">
+                                        <div class = "gallerymain__orderoptiontitle">Цена</div>
+                                        <div>1000 &#8381</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__period">
+                                        <div class = "gallerymain__orderoptiontitle">Срок</div>
+                                        <div>30-120 мин</div>
+                                    </div>
+                                    <div class="gallerymain__button">
+                                        <a class = "order-button" href = "#">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__orderoption tablemedium__row">
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__service">
+                                        <div class = "gallerymain__orderoptiontitle">Ремонтные услуги</div>
+                                        <div>Замена полифонического динамика</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__cost">
+                                        <div class = "gallerymain__orderoptiontitle">Цена</div>
+                                        <div>1000 &#8381</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__period">
+                                        <div class = "gallerymain__orderoptiontitle">Срок</div>
+                                        <div>30-120 мин</div>
+                                    </div>
+                                    <div class="gallerymain__button">
+                                        <a class = "order-button" href = "#">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__orderoption tablemedium__row">
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__service">
+                                        <div class = "gallerymain__orderoptiontitle">Ремонтные услуги</div>
+                                        <div>Тестирование с выдачей технического заключения</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__cost">
+                                        <div class = "gallerymain__orderoptiontitle">Цена</div>
+                                        <div>1000 &#8381</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__period">
+                                        <div class = "gallerymain__orderoptiontitle">Срок</div>
+                                        <div>30-120 мин</div>
+                                    </div>
+                                    <div class="gallerymain__button">
+                                        <a class = "order-button" href = "#">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide gallerymain__orderoption tablemedium__row">
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__service">
+                                        <div class = "gallerymain__orderoptiontitle">Ремонтные услуги</div>
+                                        <div>Замена программного обеспечения</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__cost">
+                                        <div class = "gallerymain__orderoptiontitle">Цена</div>
+                                        <div>1000 &#8381</div>
+                                    </div>
+                                    <div class = "gallerymain__orderoptioninfo tablemedium__period">
+                                        <div class = "gallerymain__orderoptiontitle">Срок</div>
+                                        <div>30-120 мин</div>
+                                    </div>
+                                    <div class="gallerymain__button">
+                                        <a class = "order-button" href = "#">Заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="gallerymain__additional">
+                            Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+                        </div>
+                        <div class="getoffer">
+                            <div>
+                                <a href = "#" class="getoffer__link">Получить коммерческое предложение</a>
+                            </div>
+                            <img class = "getoffer__arrow" src = "./img/Line.png" width = "8" height = "12">
+                        </div>
+                    </div>
+                    <div class = "galleryfooter">
+                        <div class="galleryfooter__item">&#169 2019 CPS<br>Разработано командой Apesong</div>
+                        <div class="galleryfooter__item">Политика конфиденциальности</div>
+                        <div class="galleryfooter__item">Информация, размещенная на данной странице, не является публичной офертой</div>
+                    </div>
+                </div>
             </div>
+        </div>
+
+
+        <div class="container request-call-modal">
+            <button class="button button_type-close request-call-modal__close-button request-call-modal__close-button_external" title ="Закрыть"></button>
+            <div class = "modal-container">
+                <header class = "header">
+                    <button class="button button_type-close request-call-modal__close-button " title ="Закрыть"></button>
+                </header>
+                <div class="head">
+                    <h1 class="pagetitle">Заказать звонок</h1>
+                </div>
+                <form action = "" method = "get">
+                    <div class="form-field"><input class = "form-field__input" type = "text" name ="phone" placeholder="Телефон"></div>
+                    <div class="form-info">
+                        Нажимая "отправить", вы даете согласие на
+                        <a class = "form-info__link" href = "#">обработку персональных данных</a> и соглашаетесь с нашей
+                        <a class = "form-info__link" href = "#">политикой конфиденциальности</a>
+                    </div>
+                    <div class="form-button">
+                        <button type = "submit" class = "order-button">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container feedback-modal">
+            <header class = "header">
+                <button class="button button_type-close" title ="Закрыть"></button>
+            </header>
+            <div class="head">
+                <h1 class="pagetitle">Обратная связь</h1>
+            </div>
+            <form action = "" method = "get">
+                <div class="form-field"><input class = "form-field__input" type = "text" name = "name" placeholder="Имя"></div>
+                <div class="form-field"><input class = "form-field__input" type = "text" name ="phone" placeholder="Телефон"></div>
+                <div class="form-field"><input class = "form-field__input" type = "text" name = "mail" placeholder="Электронная почта"></div>
+                <div class="form-field">
+                    <textarea class = "form-field__input form-field__input_kind-high" type = "text" name = "message" placeholder="Сообщение" rows = "5" cols = "10"></textarea>
+                </div>
+                <div class="form-info">
+                    Нажимая "отправить", вы даете согласие на
+                    <a class = "form-info__link" href = "#">обработку персональных данных</a> и соглашаетесь с нашей
+                    <a class = "form-info__link" href = "#">политикой конфиденциальности</a>
+                </div>
+                <div class="form-button">
+                    <button type = "submit" class = "order-button">Отправить</button>
+                </div>
+            </form>
         </div>
         <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     </body>
