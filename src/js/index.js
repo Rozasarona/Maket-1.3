@@ -3,7 +3,9 @@ import './header/__menu-button/header__menu-button';
 import './header/__close-button/header__close-button';
 import './request-call-modal/__close-button/request-call-modal__close-button';
 import './footer/__call-button/footer__call-button';
-
+import './brands/__expand-link/brands__expand-link';
+import './gadgets/__expand-link/gadgets__expand-link';
+import './content/__expand-link/content__expand-link';
 
 if (window.innerWidth <= 768) {
   let mySwiper = new Swiper ('.swiper-container', {
@@ -14,18 +16,3 @@ if (window.innerWidth <= 768) {
     }
   });
 }
-
-let expandButton = document.querySelector('#expand');
-let containerElement = document.querySelector('.swiper-container');
-
-expandButton.addEventListener('click', function() {
-  if (expandButton.innerHTML === "Показать все") {
-    expandButton.innerHTML = "Скрыть";
-    expandButton.classList.add('expandlink_upside-down');
-    containerElement.style.height = "unset";
-  } else {
-    expandButton.innerHTML = "Показать все";
-    expandButton.classList.remove('expandlink_upside-down');
-    containerElement.style.height = "";
-  }
-});
