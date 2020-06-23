@@ -4,5 +4,5 @@ let container = document.querySelector('.page-container');
 
 buttons.forEach(button=>button.addEventListener('click', () => {
     container.classList.remove('page-container_hidden');
-    modalwindow.classList.remove('request-call-modal_visible');
+    modalWindow.classList.remove('request-call-modal_visible');
 }));
