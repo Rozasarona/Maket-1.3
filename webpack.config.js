@@ -145,8 +145,8 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       title: 'Добро пожаловать',
-      filename: 'final.html',
-      template: './src/final.html',
+      filename: 'index2.html',
+      template: './src/index2.html',
       inject: true,
       minify: {
         removeComments: true,

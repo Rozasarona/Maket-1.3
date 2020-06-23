@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header__box">
+                    <button class="button button_type-menu" title="Меню"></button>
+                    <div class="divider divider_hiddenmobile"></div>
+                    <a href="#" class="logo header__logo"></a>
+                </div>
+                <div class="header__box">
+                    <div class="header__contacts header__contacts_hiddenmobile">
+                        <button class="button button_type-call" title="Позвонить"></button>
+                        <button class="button button_type-write" title="Написать"></button>
+                        <button class="button button_type-aboutus" title="О нас"></button>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="header__requests">
+                        <button class="button button_type-request" title="Оставить заявку"></button>
+                        <button class="button button_type-status" title="Статус ремонта"></button>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="head">
+                    <h1 class="pagetitle">Услуги и сервисы</h1>
+                    <div class="head__service">
+                        <label class="head__label">Оставить заявку<button class="button button_type-request head__button"></button></label>
+                        <label class="head__label">Статус ремонта<button class="button button_type-status head__button"></button></label>
+                    </div>
+                </div>
+                <div class="info">
+                    <a class="info__link info__link_active" href="#">Ремонтируемые устройства</a>
+                    <a class="info__link" href="#">Дополнительные услуги</a>
+                    <a class="info__link" href="#">Цены на услуги</a>
+                    <a class="info__link" href="#">Адреса сервисных центров</a>
+                    <a class="info__link" href="#">Специальные цены</a>
+                    <a class="info__link" href="#">Отзывы</a>
+                </div>
+                <div class="content">
+                    <div class="content__container">
+                        <p class="content__text">
+                            Мы являемся авторизованным сервисным центром по ремонту техники Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                        </p>
+                        <p class="content__text content__text_visible-large">
+                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтврждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                        </p>
+                        <a class="expandlink" href="#">Читать далeе</a>
+                    </div>
+                    <img class="content__picture" src="./img/Picture Copy.png" alt="Логотип">
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
