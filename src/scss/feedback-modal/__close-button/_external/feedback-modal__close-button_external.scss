@@ -1,0 +1,9 @@
+.feedback-modal__close-button_external {
+    display: none;
+    margin-top: 24px;
+    margin-right: 24px;
+
+    @media (min-width: 1120px) {
+        display: block;
+    }
+}

@@ -31,7 +31,7 @@
                 <footer class="footer">
                     <div class="footer__contacts">
                         <button class="button button_type-call footer__button footer__call-button" title="Заказать звонок"></button>
-                        <button class="button button_type-write footer__button" title="Обратная связь"></button>
+                        <button class="button button_type-write footer__button footer__message-button" title="Обратная связь"></button>
                         <button class="button button_type-aboutus footer__button" title="О нас"></button>
                     </div>
                     <div class="footer__email">
@@ -59,7 +59,7 @@
                         <div class="header__box">
                             <div class="header__contacts header__contacts_hiddenmobile">
                                 <button class="button button_type-call header__call-button" title="Заказать звонок"></button>
-                                <button class="button button_type-write" title="Обратная связь"></button>
+                                <button class="button button_type-write header__message-button" title="Обратная связь"></button>
                                 <button class="button button_type-aboutus" title="О нас"></button>
                             </div>
                             <div class="divider"></div>
@@ -344,8 +344,10 @@
             </div>
         </div>
         <div class="container feedback-modal">
+            <button class="button button_type-close feedback-modal__close-button feedback-modal__close-button_external" title ="Закрыть"></button>
+            <div class = "modal-container">
             <header class = "header">
-                <button class="button button_type-close" title ="Закрыть"></button>
+                <button class="button button_type-close feedback-modal__close-button feedback-modal__close-button" title ="Закрыть"></button>
             </header>
             <div class="head">
                 <h1 class="pagetitle">Обратная связь</h1>
