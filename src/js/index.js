@@ -8,4 +8,4 @@ import './brands/__expand-link/brands__expand-link';
 import './gadgets/__expand-link/gadgets__expand-link';
 import './content/__expand-link/content__expand-link';
 import './footer/__message-button/footer__message-button';
-
+import './swiper-container/swiper-container';

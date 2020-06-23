@@ -1,4 +1,8 @@
 .page-container {
-    display: flex;
     justify-content: center;
+    max-width: 1440px;
+
+    @media(min-width: 1120px) {
+        display: flex;
+    }
 }

@@ -1,8 +1,8 @@
 let button = document.querySelector('.header__menu-button');
 let menu = document.querySelector('.sidebarcontainer');
-let container = document.querySelector('.container');
+let blur = document.querySelector('.blur');
 
 button.addEventListener('click', () => {
     menu.classList.add('sidebarcontainer_visible');
-    container.classList.add('container_hidden');
+    blur.classList.add('blur_visible');
 });

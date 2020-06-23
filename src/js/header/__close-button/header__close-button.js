@@ -1,11 +1,11 @@
-let button = document.querySelector('.header__close-button');
-let container = document.querySelector('.container');
+let buttons = document.querySelectorAll('.header__close-button, .blur');
 let menu = document.querySelector('.sidebarcontainer');
+let blur = document.querySelector('.blur');
 
-button.addEventListener('click', () => {
-    container.classList.remove('container_hidden');
+buttons.forEach(button => button.addEventListener('click', () => {
+    blur.classList.remove('blur_visible');
     menu.classList.remove('sidebarcontainer_visible');
-});
+}));
 
 
 

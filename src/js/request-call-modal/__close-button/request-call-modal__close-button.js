@@ -1,8 +1,8 @@
-let buttons = document.querySelectorAll('.request-call-modal__close-button');
+let buttons = document.querySelectorAll('.request-call-modal__close-button, .blur');
 let modalWindow = document.querySelector('.request-call-modal');
-let container = document.querySelector('.page-container');
+let blur = document.querySelector('.blur');
 
 buttons.forEach(button=>button.addEventListener('click', () => {
-    container.classList.remove('page-container_hidden');
+    blur.classList.remove('blur_visible');
     modalWindow.classList.remove('request-call-modal_visible');
 }));
