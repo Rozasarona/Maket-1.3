@@ -3,4 +3,8 @@
     font-size: 16px;
     color: $contentBaseColor;
     font-weight: 500;
+
+    &:hover {
+        filter: drop-shadow(0 0 15px $shadowColor);
+    }
 }

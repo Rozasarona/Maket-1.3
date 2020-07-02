@@ -2,4 +2,9 @@
     position: absolute;
     right: 16px;
     bottom: 10px;
+
+    &:hover {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
 }

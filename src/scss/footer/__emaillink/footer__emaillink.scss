@@ -2,4 +2,8 @@
     font-weight: 500;
     text-decoration: none;
     color: $contentBaseColor;
+
+    &:hover {
+        opacity: 0.7;
+    }
 }
