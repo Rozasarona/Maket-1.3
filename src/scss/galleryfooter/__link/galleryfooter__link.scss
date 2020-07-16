@@ -1,0 +1,9 @@
+.galleryfooter__link {
+    text-decoration: none;
+    color: $sideBarMenuHoverColor;
+    transition: all 0.25s ease;
+
+    &:hover {
+        filter: drop-shadow(0 0 10px $shadowColor);
+    }
+}

@@ -3,6 +3,7 @@
     font-size: 16px;
     color: $contentBaseColor;
     font-weight: 500;
+    transition: all 0.25s ease;
 
     &:hover {
         filter: drop-shadow(0 0 15px $shadowColor);

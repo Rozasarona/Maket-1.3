@@ -2,6 +2,7 @@
     text-decoration: none;
     color:$contentBaseColor;
     font-weight: 500;
+    transition: all 0.25s ease;
 
     &:hover {
         color: $sideBarMenuHoverColor;

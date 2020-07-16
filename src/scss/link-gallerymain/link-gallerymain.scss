@@ -1,4 +1,13 @@
-.link-gallerymain:hover {
-    transform: scale(1.2);
+.link-gallerymain {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.25s ease;
+
+
+    &:hover {
+    transform: scale(1.05);
     opacity: 0.8;
+    }
 }

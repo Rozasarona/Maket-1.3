@@ -8,6 +8,7 @@
     display: inline-block;
     background: no-repeat url(../img/expand.png) left center;
     padding-left: 32px;
+    transition: all 0.25s ease;
 
     &:hover {
         filter: drop-shadow(0 0 10px $shadowColor);

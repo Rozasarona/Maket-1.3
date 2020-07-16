@@ -3,6 +3,7 @@
     margin-right: 7px;
     text-decoration: none;
     color: #000;
+    transition: all 0.25s ease;
 
     &:hover {
         color: $sideBarMenuHoverColor;
