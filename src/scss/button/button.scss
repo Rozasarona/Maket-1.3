@@ -5,7 +5,7 @@
     background-color: transparent;
     transition: all 0.25s ease;
 
-    &:hover {
+    &:hover, &:active {
         transform: scale(1.2);
         opacity: 0.8;
         cursor: pointer;
