@@ -1,5 +1,9 @@
 .sidebarcontainer__logo {
-    margin-left: 16px;
+    margin-left: 14px;
+    
+    @media(min-width: 768px) {
+        margin-left: 34px;
+        }
 
     @media(min-width: 1120px) {
         margin-left: 0;
