@@ -6,6 +6,8 @@
     line-height: 18px;
     flex-direction: column;
     letter-spacing: 0.2px;
+    align-items: stretch;
+    padding-bottom: 30px;
 
     @media (min-width: 768px) {
             flex-direction: row;
